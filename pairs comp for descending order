@@ -1,0 +1,12 @@
+
+bool comp(pair<ll ,ll> a1 , pair <ll ,ll > a2)
+{
+	if(a1.first > a2.first) return true;
+	else if (a1.first == a2.first)
+	{
+		return a1.second<a2.second;
+	}
+	else return false;
+}
+
+
